@@ -1,0 +1,46 @@
+#mainPage{
+    -fx-background-color: linear-gradient(#3337F2, #0B3FAD);
+
+
+}
+#titleText {
+
+
+    -fx-text-alignment: center;
+    -fx-font-family: "Raleway";
+    -fx-font-size: 40;
+
+    -fx-font-weight: 700;
+}
+#nameText{
+-fx-text-alignment: center;
+   -fx-font-family: "Raleway";
+    -fx-font-size: 20;
+
+}
+#buttonMain {
+    -fx-font-size: 24;
+    -fx-background-color:#FF8159; /* Set your button background color */
+    -fx-text-fill: white; /* Set your button text color */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+    -fx-cursor: hand; /* Change cursor to hand on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 10, 0, 0, 0);
+    -fx-transition-duration: 0.2s;
+}
+
+#buttonMain:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+#errorListView{
+  -fx-control-inner-background: #8f9dc4;
+
+}
+#metricsBox{
+    -fx-background-color: #DEE5FA;
+}
+#suggestTab{
+    -fx-background-color: #a9b1c9
+}
